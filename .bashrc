@@ -53,27 +53,39 @@ alias tmkl="tmux kill-server"
 
 
 
+
 ##################################
-# Infrastructure
+# Docker
 ##################################
-# For Docker
 alias dc='docker'
 alias dcc='docker container'
 alias dci='docker images'
 
+##################################
 # Kubernetes
+##################################
 alias k=kubectl
+alias kget='kubectl get'
 alias bb='kubectl run busybox --image=busybox:1.28 --rm -it --restart=Never --command --'
+alias kall='kubectl get all --all-namespaces'
+alias kex='kubectl explain'
+alias kdes='kubectl describe'
 
-## For aws cli
+##################################
+# aws cli
+##################################
 # AWS_PROFILE is not work as you expected because of backward compatibility for aws cli...
 alias aws='aws --profile ${AWS_PROFILE:-""}'
 
-# For google cloud
+##################################
+# google cloud
+##################################
 source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
 source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
 
+##################################
 # Terraform
+##################################
 alias cdtr='cd ~/operate_terraform'
 
 
