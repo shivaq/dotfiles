@@ -53,7 +53,7 @@ alias cddf='cd $HOME/001.LocalRepository/GitHub/000.dotfiles/'
 # Python
 ##################################
 alias cdlp='cd $HOME/Dropbox/01.study/00.Git/05.Lambda/01.Python'
-alias cdpy='cd ~/Documents/001.LocalRepository/GitHub/02.Python'
+alias cdpy='cd $HOME/001.LocalRepository/GitHub/02.Python'
 
 
 # Make pyenv to use /usr/loca/var/pyenv
@@ -122,12 +122,11 @@ alias cdtr='cd ~/operate_terraform'
 ##################################
 # Docker
 ##################################
-alias cddc='cd ~/docker_practice'
+alias cddc='cd $HOME/001.LocalRepository/GitHub/100.docker_practice'
 alias dcbih='docker build -t shivaq/start_in_my_head:0.1 .'
 alias dc='docker'
 alias dcc='docker container'
 alias dci='docker images'
-
 
 ##################################
 # Kubernetes
