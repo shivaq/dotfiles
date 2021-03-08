@@ -48,12 +48,12 @@ alias tmkl="tmux kill-server"
 # Dotfiles
 ##################################
 alias cddf='cd $HOME/001.LocalRepository/GitHub/000.dotfiles/'
-# ~/001.LocalRepository/GitHub/000.dotfiles/
+
 ##################################
 # Python
 ##################################
 alias cdlp='cd $HOME/Dropbox/01.study/00.Git/05.Lambda/01.Python'
-alias cdpy='cd $HOME/001.LocalRepository/GitHub/02.Python'
+alias cdpy='cd $HOME/001.LocalRepository/GitHub/501.Python'
 
 
 # Make pyenv to use /usr/loca/var/pyenv
@@ -79,6 +79,11 @@ alias ap8='autopep8 -ivr'
 alias pre="pipenv run execute"
 alias prtc="pipenv run test"
 export PIPENV_IGNORE_VIRTUALENVS=1
+
+##################################
+# JavaScript
+##################################
+alias cdjs='cd $HOME/001.LocalRepository/GitHub/502.JavaScript'
 
 ##################################
 # Golang
