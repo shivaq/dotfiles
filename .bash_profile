@@ -47,7 +47,7 @@ alias tmkl="tmux kill-server"
 ##################################
 # Dotfiles
 ##################################
-alias cddf='cd $HOME/001.LocalRepository/GitHub/000.dotfiles/'
+alias cddf='cd $HOME/001.LocalRepository/GitHub/dotfiles/'
 
 ##################################
 # Python
