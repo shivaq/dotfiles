@@ -19,6 +19,7 @@ alias ll='ls -la'
 alias llg='ll | grep'
 
 alias scbp='source $HOME/.bash_profile'
+alias cdsm="cd ~/Dropbox/01.study/01.Study_Memo"
 
 
 ##################################
@@ -46,8 +47,8 @@ alias tmkl="tmux kill-server"
 ##################################
 # Dotfiles
 ##################################
-alias cddf='cd $HOME/Documents/dotfiles'
-
+alias cddf='cd $HOME/001.LocalRepository/GitHub/000.dotfiles/'
+# ~/001.LocalRepository/GitHub/000.dotfiles/
 ##################################
 # Python
 ##################################
