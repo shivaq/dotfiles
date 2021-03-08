@@ -157,3 +157,5 @@ alias mks='minikube service'
 ##################################
 # For PostgreSQL
 alias cdpg='cd ~/psgl_practice'
+
+tmux
