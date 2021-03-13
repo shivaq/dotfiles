@@ -19,8 +19,7 @@ alias ll='ls -la'
 alias llg='ll | grep'
 
 alias scbp='source $HOME/.bash_profile'
-alias cdsm="cd ~/Dropbox/01.study/01.Study_Memo"
-
+alias cdsm="cd $HOME/Dropbox/01.Study_Memo"
 
 ##################################
 # Git
@@ -79,6 +78,13 @@ alias ap8='autopep8 -ivr'
 alias pre="pipenv run execute"
 alias prtc="pipenv run test"
 export PIPENV_IGNORE_VIRTUALENVS=1
+
+##################################
+# Java
+##################################
+export JAVA_HOME=`/usr/libexec/java_home -v "11"`
+PATH=${JAVA_HOME}/bin:${PATH}
+
 
 ##################################
 # JavaScript
