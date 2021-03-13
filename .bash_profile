@@ -119,6 +119,9 @@ alias cdcf='cd ~/001.LocalRepository/GitHub/001.Aws/001.CloudFormation'
 ## For serverless
 alias cdsl='cd ~/Dropbox/01.study/00.Git/06.ServerlessFramework/10.Programs/00.Shell/Shells_for_aws/'
 
+## Go and set mfa for a paticular aws user
+alias cdmfa='cd ~/001.LocalRepository/GitHub/501.Python/PycharmProjects/operate_aws/set_aws_mfa'
+
 ##################################
 # google cloud
 ##################################
