@@ -1,0 +1,13 @@
+##################################
+# Kubernetes
+##################################
+alias mksih='minikube service in-my-head'
+alias k=kubectl
+alias kget='kubectl get'
+alias bb='kubectl run busybox --image=busybox:1.28 --rm -it --restart=Never --command --'
+alias kall='kubectl get all --all-namespaces'
+alias kex='kubectl explain'
+alias kdes='kubectl describe'
+alias kdel='kubectl delete'
+alias kapf='kubectl apply -f'
+alias mks='minikube service'

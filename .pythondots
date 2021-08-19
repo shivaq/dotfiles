@@ -1,0 +1,30 @@
+##################################
+# Python
+##################################
+alias cdlp='cd $HOME/Dropbox/01.study/00.Git/05.Lambda/01.Python'
+alias cdpy='cd $HOME/001.LocalRepository/GitHub/501.Python'
+
+
+# Make pyenv to use /usr/loca/var/pyenv
+export PYENV_ROOT=/usr/local/var/pyenv
+
+# Make pyenv to provide auto complete function
+if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
+
+# Set for Pipenv
+export PIPENV_VENV_IN_PROJECT=true
+if which pipenv > /dev/null; then eval "$(pipenv --completion)"; fi
+
+# Set for python tbvaccine enabled globally
+export TBVACCINE=1
+
+
+alias flk='flake8 --show-source'
+alias ap8='autopep8 -ivr'
+
+
+# For pipenv
+## use below with Pipfile scripts
+alias pre="pipenv run execute"
+alias prtc="pipenv run test"
+export PIPENV_IGNORE_VIRTUALENVS=1

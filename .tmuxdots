@@ -1,0 +1,6 @@
+##################################
+# tmux
+##################################
+# required for solarized color scheme
+alias tm="TERM=screen-256color-bce tmux"
+alias tmkl="tmux kill-server"

@@ -1,0 +1,19 @@
+##################################
+# Common
+##################################
+## aliases
+alias ll='ls -la'
+alias llg='ll | grep'
+
+alias scbp='source $HOME/.bash_profile'
+alias cdsm="cd $HOME/Dropbox/01.Study_Memo"
+
+##################################
+# Dotfiles
+##################################
+alias cddf='cd $HOME/001.LocalRepository/GitHub/dotfiles/'
+
+##################################
+# HTML, CSS
+##################################
+alias cdhtml='cd $HOME/001.LocalRepository/GitHub/500.HtmlCss'

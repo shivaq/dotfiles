@@ -1,0 +1,12 @@
+##################################
+# Git
+##################################
+alias gb='git branch'
+alias gbd='git branch -D'
+alias gc='git checkout'
+alias gst='git status'
+alias gdc='git diff --cached'
+alias gd='git diff'
+alias gcv='git commit -v'
+alias gcm='git commit -m '
+alias gcan='git commit --amend --no-edit'

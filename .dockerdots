@@ -1,0 +1,8 @@
+##################################
+# Docker
+##################################
+alias cddc='cd $HOME/001.LocalRepository/GitHub/100.docker_practice'
+alias dcbih='docker build -t shivaq/start_in_my_head:0.1 .'
+alias dc='docker'
+alias dcc='docker container'
+alias dci='docker images'
