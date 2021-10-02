@@ -2,3 +2,5 @@
 # JavaScript
 ##################################
 alias cdjs='cd $HOME/001.LocalRepository/GitHub/502.JavaScript'
+
+alias ts-node="./node_modules/.bin/ts-node"
