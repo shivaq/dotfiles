@@ -8,11 +8,12 @@ alias llg='ll | grep'
 alias scbp='source $HOME/.bash_profile'
 alias cdsm="cd $HOME/Dropbox/01.Study_Memo"
 alias cdih='cd $HOME/001.LocalRepository/GitHub/InMyHead'
+alias cdsmt='cd $HOME/Downloads/StudyMaterial'
 
 ##################################
 # Dotfiles
 ##################################
-alias cddf='cd $HOME/001.LocalRepository/GitHub/dotfiles/'
+alias cddf='cd $HOME/dotfiles/'
 
 ##################################
 # HTML, CSS
