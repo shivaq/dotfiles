@@ -3,3 +3,8 @@
 ##################################
 # For PostgreSQL
 alias cdpg='cd ~/psgl_practice'
+
+# DB url for development
+# TODO: set password securely
+# TODO: Access remote db
+export DATABASE_URL="postgres://postgres:testrootpass@localhost:5432/inmyhead"
