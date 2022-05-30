@@ -9,6 +9,7 @@ alias scbp='source $HOME/.bash_profile'
 alias cdsm="cd $HOME/Dropbox/01.Study_Memo"
 alias cdih='cd $HOME/001.LocalRepository/GitHub/InMyHead'
 alias cdsmt='cd $HOME/Downloads/StudyMaterial'
+alias ondo='sudo powermetrics --samplers smc |grep -i "CPU die temperature"'
 
 ##################################
 # Dotfiles
