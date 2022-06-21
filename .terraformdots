@@ -2,3 +2,5 @@
 # Terraform
 ##################################
 alias cdtr='cd ~/operate_terraform'
+alias tf="terraform"
+alias terrafrom="terraform"

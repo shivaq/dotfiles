@@ -14,3 +14,6 @@ alias cdsl='cd ~/Dropbox/01.study/00.Git/06.ServerlessFramework/10.Programs/00.S
 alias cdmfa='cd ~/001.LocalRepository/GitHub/InMyHead/aws/set_aws_mfa'
 
 alias cdawsconf='cd ~/.aws'
+
+export AWS_ACCOUNT="223477253336"
+export AWS_REGION="ap-northeast-3"

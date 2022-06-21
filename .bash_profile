@@ -10,3 +10,5 @@ for file in ~/.{path,bash_prompt,exports,aliases,gitdots,tmuxdots,pythondots,jav
 done;
 unset file;
 
+
+complete -C /usr/local/bin/terraform terraform
