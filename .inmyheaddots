@@ -1,2 +1,1 @@
-export GOPRIVATE=github.com/shivaq/gcp_zap,github.com/shivaq/micro_protoc,github.com/shivaq/probe_server,github.com/shivaq/telemetry,github.com/shivaq/protoc-inmyhead
-
+export GOPRIVATE=github.com/shivaq/gcp_zap,github.com/shivaq/micro_protoc,github.com/shivaq/probe_server,github.com/shivaq/telemetry,github.com/shivaq/protoc-inmyhead,github.com/shivaq/common-util-inmyhead
