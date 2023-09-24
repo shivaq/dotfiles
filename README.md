@@ -148,3 +148,20 @@ bind C-a send-prefix -2
 
 - 下記を追記
   set -g status-position top
+
+</br>
+</br>
+</br>
+</br>
+
+# 新規 追加のやり方
+
+- `.bash_profile` の下記部分に。。。
+
+```sh
+for file in ~/.{path,bash_prompt,exports,aliases,gitdots,tmuxdots,pythondots,javadots,javascriptdots,golangdots,nodejsdots,awsdots,gcpdots,terraformdots,dockerdots,k8sdots,dbdots,secretdots,functions,extra,inmyheaddots}; do
+	[ -r "$file" ] && [ -f "$file" ] && source "$file";
+done;
+```
+
+- 新規 dotfile 例えば `rubydots` を 追記する
