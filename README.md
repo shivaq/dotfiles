@@ -156,12 +156,18 @@ bind C-a send-prefix -2
 
 # 新規 追加のやり方
 
-- `.bash_profile` の下記部分に。。。
+- `.bash_profile` の下記部分に 新規 dotfile を追記して。。。
 
 ```sh
 for file in ~/.{path,bash_prompt,exports,aliases,gitdots,tmuxdots,pythondots,javadots,javascriptdots,golangdots,nodejsdots,awsdots,gcpdots,terraformdots,dockerdots,k8sdots,dbdots,secretdots,functions,extra,inmyheaddots}; do
 	[ -r "$file" ] && [ -f "$file" ] && source "$file";
 done;
+```
+
+- Makefile の deploy を実行
+
+```sh
+make deploy
 ```
 
 - 新規 dotfile 例えば `rubydots` を 追記する
