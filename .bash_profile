@@ -13,3 +13,5 @@ unset file;
 eval "$(direnv hook zsh)"
 
 complete -C /usr/local/bin/terraform terraform
+
+echo "Reloaded!"

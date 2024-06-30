@@ -5,7 +5,7 @@
 alias ll='ls -la'
 alias llg='ll | grep'
 
-alias scbp='source $HOME/.bash_profile'
+alias reload='source $HOME/.bash_profile'
 alias cdsm="cd $HOME/Dropbox/01.Study_Memo"
 alias cdih='cd $HOME/001.LocalRepository/GitHub/InMyHead'
 alias cdsmt='cd $HOME/Downloads/StudyMaterial'
@@ -20,3 +20,8 @@ alias cddf='cd $HOME/dotfiles/'
 # HTML, CSS
 ##################################
 alias cdhtml='cd $HOME/001.LocalRepository/GitHub/500.HtmlCss'
+
+##################################
+# Terraform
+##################################
+alias cdtf='cd ~/001.LocalRepository/GitHub/InMyHead/terraform/micro_practice_terraform'
