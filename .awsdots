@@ -17,6 +17,7 @@ alias cdawsconf='cd ~/.aws'
 
 export AWS_ACCOUNT="223477253336"
 export AWS_REGION="ap-northeast-3"
+export AWS_PAGER=""
 
-alias setawsenvdev='aws sso login --profile psys && export AWS_PROFILE=psys'
-alias loginawsdev='open https://d-c767191933.awsapps.com/start'
+alias setawsenvdev='export AWS_PROFILE=psys-admin && aws sso login --profile ${AWS_PROFILE}'
+alias awslogindev='open https://d-c767191933.awsapps.com/start'
