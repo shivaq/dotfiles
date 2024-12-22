@@ -38,7 +38,9 @@ poetry completions zsh > $ZSH_CUSTOM/plugins/poetry/_poetry
 
 # Set for Pipenv
 export PIPENV_VENV_IN_PROJECT=true
-if which pipenv > /dev/null; then eval "$(pipenv --completion)"; fi
+if command -v pipenv > /dev/null; then
+    eval "$(_PIPENV_COMPLETE=zsh_source pipenv)"
+fi
 
 # For pipenv
 ## use below with Pipfile scripts
