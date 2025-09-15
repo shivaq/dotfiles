@@ -4,6 +4,7 @@
 ## aliases
 alias ll='ls -la'
 alias llg='ll | grep'
+alias grep='grep --color=auto'
 
 alias reload='source $HOME/.zshrc'
 alias cdsm="cd $HOME/Dropbox/01.Study_Memo"
