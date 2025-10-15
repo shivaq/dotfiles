@@ -1,3 +1,5 @@
+#!/bin/bash
+# shellcheck source=/dev/null
 if [ -f ~/.bashrc ] ; then
 . ~/.bashrc
 fi
@@ -11,6 +13,7 @@ done;
 unset file;
 
 eval "$(direnv hook zsh)"
+eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # command completion
 eval "$(gh completion -s zsh)"
