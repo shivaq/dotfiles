@@ -7,7 +7,7 @@ alias llg='ll | grep'
 alias grep='grep --color=auto'
 
 alias reload='source $HOME/.zshrc'
-alias cdsm="cd $HOME/Dropbox/01.Study_Memo"
+alias cdsm='cd $HOME/Dropbox/01.Study_Memo'
 alias cdih='cd $HOME/001.LocalRepository/GitHub/InMyHead'
 alias cdgh='cd $HOME/001.LocalRepository/GitHub'
 alias cdsmt='cd $HOME/Downloads/StudyMaterial'
